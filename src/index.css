@@ -140,6 +140,9 @@ ul {
   clear: both;
 }
 
+.hidden {
+  visibility: hidden;
+}
 
 @keyframes App-logo-spin {
   from {

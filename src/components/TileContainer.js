@@ -5,14 +5,8 @@ const TileContainer = ({hogs}) => {
     return (
         <div className="ui grid container">
            { hogs.map((hog) => 
-            <Tile hog={hog}  key={hog.name} />
-          
-            
-           
+            <Tile hog={hog}  key={hog.name} />          
             )}
-
-
-
         </div>
     )
 }
